@@ -9,8 +9,9 @@ You can see the list of algorithms covered below. You will find the code to the 
 4. **Page Rank using Eigenvectors with teleportation factor**
 5. Python code to plot the pagerank values of the pages (in a single plot) in the digraph as a function of the teleportation factor (varying the factor like this: 0.1, 0.2, 0.3, so on till 0.9)
 6. **Page Rank using repeated squaring method without teleportation factor**
-7. Find **all matching occurrences** of a **pattern** within the **larger text string** using **Rabin Karp Algorithm**.<br>
-   The actual was as follows:<br>
+7. Find **all matching occurrences** of a **pattern** within the **larger text string** using **Rabin Karp Algorithm**. <br>
+   Here, you will learn the beautiful and elegant **"Rolling hash"** technique to generate hashses efficiently. <br>
+   The actual was as follows: <br>
     	Consider the text string “mississippippissi”. We wish to find all matching occurrences of the
 	pattern “ippi” within the larger text string. Assume that Σ = {a, b, c, … , z}.
 	(i) [10 points] Apply Rabin-Karp. Show the value of the rolling hash in each step. Also show the
